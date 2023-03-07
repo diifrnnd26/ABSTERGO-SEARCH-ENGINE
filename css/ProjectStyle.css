@@ -1,0 +1,98 @@
+body
+{
+    width: 90%;
+    min-height: 78vh;
+    padding: 5%;
+    overflow-x: hidden;
+  background-image: linear-gradient(
+    to left bottom,
+    #d16ba5,
+    #c777b9,
+    #ba83ca,
+    #aa8fd8,
+    #1a9ae1,
+    #9aa7ec,
+    #79b3f4,
+    #69bff8,
+    #52cffe,
+    #41dfff,
+    #46eefa,
+    #5ffbf1
+  );
+    background-size: 100vw 100vw;
+}
+.logo img
+{
+    height: 25vw;
+    margin: 10 auto;
+    justify-content: center;
+    margin-left: 10vw;
+    margin-top: 1vw;
+}
+.Container img 
+{
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 1px;
+}
+.button
+{
+    border-radius: 20px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+.button:hover
+{
+    background: rgba(147,147,147,0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 30px;
+    border: 2px solid rgba(255,255,255,0.18);
+}
+.button:active
+{
+    background: rgba(147,147,147,0.25);
+    box-shadow: 0 8px 32px 0 rgba(31,38, 135, 0.37);
+    backdrop-filter: blur (4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+.Container form
+{
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    backdrop-filter: blur (1px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.18);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    width: 50vw;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.SearchContainer
+{
+    width: 40vw;
+    outline: none;
+    background: none;
+    font-size: 1.3em;
+    color: rgba(0, 0, 0, 0.327);
+    border: none;
+}
+.SearchContainer::placeholder
+{
+    color:black;
+}
+
+.copyright-content p {
+    letter-spacing: 1px;
+    font-size: .9rem;
+    color: #000000;
+    text-align: center;
+}
