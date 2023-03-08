@@ -269,3 +269,54 @@ body
 }
 
 }
+
+/*untuk perangkat mobile*/
+@media only screen and (max-width: 600px) {
+  body {
+    width: 100%;
+    min-height: auto;
+    padding: 0;
+    background-size: cover;
+  }
+  
+  .logo img {
+    height: 20vw;
+    margin-left: 0;
+    margin-top: 2vw;
+  }
+  
+  .Container form {
+    width: 80vw;
+  }
+  
+  .SearchContainer {
+    width: 60%;
+    font-size: 1em;
+  }
+}
+
+/*untuk perangkat tablet*/
+@media only screen and (min-width: 600px) and (max-width: 992px) {
+  body {
+    width: 100%;
+    min-height: auto;
+    padding: 0;
+    background-size: cover;
+  }
+  
+  .logo img {
+    height: 15vw;
+    margin-left: 0;
+    margin-top: 2vw;
+  }
+  
+  .Container form {
+    width: 60vw;
+  }
+  
+  .SearchContainer {
+    width: 60%;
+    font-size: 1em;
+  }
+}
+
